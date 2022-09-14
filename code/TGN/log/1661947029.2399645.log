@@ -1,0 +1,165 @@
+2022-08-31 13:57:09,240 - root - INFO - Namespace(data='uci_TADDY_005_nop', bs=200, prefix='tgn-attn', n_degree=10, n_head=2, n_epoch=50, n_layer=1, lr=0.0001, patience=5, n_runs=1, drop_out=0.1, gpu=0, node_dim=100, time_dim=100, backprop_every=1, use_memory=True, embedding_module='graph_attention', message_function='identity', memory_updater='gru', aggregator='last', memory_update_at_end=False, message_dim=100, memory_dim=172, different_new_nodes=False, uniform=False, randomize_features=False, use_destination_embedding_in_message=False, use_source_embedding_in_message=False, dyrep=False)
+2022-08-31 13:57:10,667 - root - INFO - num of training instances: 34799
+2022-08-31 13:57:10,668 - root - INFO - num of batches per epoch: 174
+2022-08-31 13:57:10,671 - root - INFO - start 0 epoch
+2022-08-31 13:57:59,608 - root - INFO - epoch: 0 took 48.94s
+2022-08-31 13:57:59,608 - root - INFO - Epoch mean loss: 0.8099519857044878
+2022-08-31 13:57:59,609 - root - INFO - val auc: 0.8322731381919555, new node val auc: 0.761087902173567
+2022-08-31 13:57:59,609 - root - INFO - val ap: 0.8460230358700808, new node val ap: 0.803008702427915
+2022-08-31 13:57:59,629 - root - INFO - start 1 epoch
+2022-08-31 13:58:49,222 - root - INFO - epoch: 1 took 49.59s
+2022-08-31 13:58:49,237 - root - INFO - Epoch mean loss: 0.7721385681766203
+2022-08-31 13:58:49,238 - root - INFO - val auc: 0.8171106531262446, new node val auc: 0.7559129043614549
+2022-08-31 13:58:49,241 - root - INFO - val ap: 0.8333728631279026, new node val ap: 0.798900814181807
+2022-08-31 13:58:49,247 - root - INFO - start 2 epoch
+2022-08-31 13:59:38,856 - root - INFO - epoch: 2 took 49.61s
+2022-08-31 13:59:38,860 - root - INFO - Epoch mean loss: 0.749897533107078
+2022-08-31 13:59:38,861 - root - INFO - val auc: 0.836230495818399, new node val auc: 0.7880525335741337
+2022-08-31 13:59:38,864 - root - INFO - val ap: 0.8483869113438834, new node val ap: 0.8232601987679953
+2022-08-31 13:59:38,880 - root - INFO - start 3 epoch
+2022-08-31 14:00:29,281 - root - INFO - epoch: 3 took 50.40s
+2022-08-31 14:00:29,287 - root - INFO - Epoch mean loss: 0.7402704272462034
+2022-08-31 14:00:29,288 - root - INFO - val auc: 0.8378132317801673, new node val auc: 0.7896104696400725
+2022-08-31 14:00:29,291 - root - INFO - val ap: 0.8521441326624823, new node val ap: 0.8236209517519303
+2022-08-31 14:00:29,300 - root - INFO - start 4 epoch
+2022-08-31 14:01:19,057 - root - INFO - epoch: 4 took 49.76s
+2022-08-31 14:01:19,057 - root - INFO - Epoch mean loss: 0.733547343091033
+2022-08-31 14:01:19,060 - root - INFO - val auc: 0.8395408104340901, new node val auc: 0.806815148935493
+2022-08-31 14:01:19,062 - root - INFO - val ap: 0.85287570204869, new node val ap: 0.8368673067104903
+2022-08-31 14:01:19,082 - root - INFO - start 5 epoch
+2022-08-31 14:02:10,361 - root - INFO - epoch: 5 took 51.28s
+2022-08-31 14:02:10,362 - root - INFO - Epoch mean loss: 0.7207430551449457
+2022-08-31 14:02:10,363 - root - INFO - val auc: 0.837960115491836, new node val auc: 0.8047848892530949
+2022-08-31 14:02:10,366 - root - INFO - val ap: 0.8528314661768279, new node val ap: 0.8365850938365363
+2022-08-31 14:02:10,387 - root - INFO - start 6 epoch
+2022-08-31 14:03:04,567 - root - INFO - epoch: 6 took 54.19s
+2022-08-31 14:03:04,576 - root - INFO - Epoch mean loss: 0.7141946759717218
+2022-08-31 14:03:04,577 - root - INFO - val auc: 0.8365096375945837, new node val auc: 0.8121173157400631
+2022-08-31 14:03:04,578 - root - INFO - val ap: 0.8485148032468213, new node val ap: 0.8379393081859305
+2022-08-31 14:03:04,587 - root - INFO - start 7 epoch
+2022-08-31 14:03:56,468 - root - INFO - epoch: 7 took 51.88s
+2022-08-31 14:03:56,470 - root - INFO - Epoch mean loss: 0.7080743895179924
+2022-08-31 14:03:56,471 - root - INFO - val auc: 0.8390404918359217, new node val auc: 0.8128440393978933
+2022-08-31 14:03:56,471 - root - INFO - val ap: 0.8519039360685032, new node val ap: 0.8407083093287904
+2022-08-31 14:03:56,491 - root - INFO - start 8 epoch
+2022-08-31 14:04:48,862 - root - INFO - epoch: 8 took 52.38s
+2022-08-31 14:04:48,862 - root - INFO - Epoch mean loss: 0.7091685488991354
+2022-08-31 14:04:48,863 - root - INFO - val auc: 0.8531454599761051, new node val auc: 0.8273021083282946
+2022-08-31 14:04:48,863 - root - INFO - val ap: 0.8635467284514212, new node val ap: 0.8515859817874594
+2022-08-31 14:04:48,872 - root - INFO - start 9 epoch
+2022-08-31 14:05:41,417 - root - INFO - epoch: 9 took 52.54s
+2022-08-31 14:05:41,418 - root - INFO - Epoch mean loss: 0.696744921906241
+2022-08-31 14:05:41,419 - root - INFO - val auc: 0.8511529470330546, new node val auc: 0.8294424088247464
+2022-08-31 14:05:41,422 - root - INFO - val ap: 0.8597117214161689, new node val ap: 0.8534796070139211
+2022-08-31 14:05:41,426 - root - INFO - start 10 epoch
+2022-08-31 14:06:35,976 - root - INFO - epoch: 10 took 54.55s
+2022-08-31 14:06:35,978 - root - INFO - Epoch mean loss: 0.6929882596964123
+2022-08-31 14:06:35,979 - root - INFO - val auc: 0.8551333432895262, new node val auc: 0.8432649142347961
+2022-08-31 14:06:35,982 - root - INFO - val ap: 0.864451897650428, new node val ap: 0.8647927746305664
+2022-08-31 14:06:35,999 - root - INFO - start 11 epoch
+2022-08-31 14:07:30,714 - root - INFO - epoch: 11 took 54.72s
+2022-08-31 14:07:30,715 - root - INFO - Epoch mean loss: 0.691515112574073
+2022-08-31 14:07:30,716 - root - INFO - val auc: 0.8599843986459578, new node val auc: 0.8475937692931929
+2022-08-31 14:07:30,717 - root - INFO - val ap: 0.8698612193667508, new node val ap: 0.8680302942188043
+2022-08-31 14:07:30,740 - root - INFO - start 12 epoch
+2022-08-31 14:08:27,244 - root - INFO - epoch: 12 took 56.51s
+2022-08-31 14:08:27,258 - root - INFO - Epoch mean loss: 0.6944307880154972
+2022-08-31 14:08:27,259 - root - INFO - val auc: 0.8475780167264039, new node val auc: 0.8375768425993696
+2022-08-31 14:08:27,262 - root - INFO - val ap: 0.8574492951972886, new node val ap: 0.8581710007965206
+2022-08-31 14:08:27,279 - root - INFO - start 13 epoch
+2022-08-31 14:09:23,675 - root - INFO - epoch: 13 took 56.40s
+2022-08-31 14:09:23,688 - root - INFO - Epoch mean loss: 0.6944976717918768
+2022-08-31 14:09:23,689 - root - INFO - val auc: 0.849516218637993, new node val auc: 0.8398377474302263
+2022-08-31 14:09:23,690 - root - INFO - val ap: 0.8570409034126704, new node val ap: 0.8604157566003369
+2022-08-31 14:09:23,713 - root - INFO - start 14 epoch
+2022-08-31 14:10:20,397 - root - INFO - epoch: 14 took 56.70s
+2022-08-31 14:10:20,397 - root - INFO - Epoch mean loss: 0.6899420971843018
+2022-08-31 14:10:20,410 - root - INFO - val auc: 0.8599919553962565, new node val auc: 0.8492351685071444
+2022-08-31 14:10:20,413 - root - INFO - val ap: 0.8681503755738648, new node val ap: 0.8701942180075536
+2022-08-31 14:10:20,430 - root - INFO - start 15 epoch
+2022-08-31 14:11:16,844 - root - INFO - epoch: 15 took 56.41s
+2022-08-31 14:11:16,847 - root - INFO - Epoch mean loss: 0.6883879434103253
+2022-08-31 14:11:16,848 - root - INFO - val auc: 0.8562803863002787, new node val auc: 0.8483963215638226
+2022-08-31 14:11:16,851 - root - INFO - val ap: 0.8645442729898609, new node val ap: 0.8676642655219323
+2022-08-31 14:11:16,865 - root - INFO - start 16 epoch
+2022-08-31 14:12:14,157 - root - INFO - epoch: 16 took 57.29s
+2022-08-31 14:12:14,161 - root - INFO - Epoch mean loss: 0.6832132721426843
+2022-08-31 14:12:14,162 - root - INFO - val auc: 0.8638091696535244, new node val auc: 0.8503190572987939
+2022-08-31 14:12:14,162 - root - INFO - val ap: 0.8715406712282205, new node val ap: 0.8696880208890507
+2022-08-31 14:12:14,170 - root - INFO - start 17 epoch
+2022-08-31 14:13:10,837 - root - INFO - epoch: 17 took 56.67s
+2022-08-31 14:13:10,846 - root - INFO - Epoch mean loss: 0.6821575671776958
+2022-08-31 14:13:10,848 - root - INFO - val auc: 0.8657506371963362, new node val auc: 0.8539250835375363
+2022-08-31 14:13:10,851 - root - INFO - val ap: 0.8726569337649966, new node val ap: 0.8725030324269712
+2022-08-31 14:13:10,867 - root - INFO - start 18 epoch
+2022-08-31 14:14:07,458 - root - INFO - epoch: 18 took 56.59s
+2022-08-31 14:14:07,458 - root - INFO - Epoch mean loss: 0.6722179649547598
+2022-08-31 14:14:07,461 - root - INFO - val auc: 0.8592377140581442, new node val auc: 0.8442049398529737
+2022-08-31 14:14:07,464 - root - INFO - val ap: 0.870323733927125, new node val ap: 0.8662188424394313
+2022-08-31 14:14:07,485 - root - INFO - start 19 epoch
+2022-08-31 14:15:25,536 - root - INFO - epoch: 19 took 78.06s
+2022-08-31 14:15:25,536 - root - INFO - Epoch mean loss: 0.6713453603201899
+2022-08-31 14:15:25,538 - root - INFO - val auc: 0.8642561728395063, new node val auc: 0.8554002430544506
+2022-08-31 14:15:25,538 - root - INFO - val ap: 0.8726177156875619, new node val ap: 0.8724800005706365
+2022-08-31 14:15:25,557 - root - INFO - start 20 epoch
+2022-08-31 14:16:31,879 - root - INFO - epoch: 20 took 66.33s
+2022-08-31 14:16:31,880 - root - INFO - Epoch mean loss: 0.6688065609370155
+2022-08-31 14:16:31,880 - root - INFO - val auc: 0.865362962962963, new node val auc: 0.8531363428062247
+2022-08-31 14:16:31,880 - root - INFO - val ap: 0.8741846858376444, new node val ap: 0.8714986942309586
+2022-08-31 14:16:31,902 - root - INFO - start 21 epoch
+2022-08-31 14:17:39,662 - root - INFO - epoch: 21 took 67.77s
+2022-08-31 14:17:39,662 - root - INFO - Epoch mean loss: 0.6614162003856966
+2022-08-31 14:17:39,662 - root - INFO - val auc: 0.8716004778972521, new node val auc: 0.8645144623365051
+2022-08-31 14:17:39,663 - root - INFO - val ap: 0.8792170862884522, new node val ap: 0.8805436121094737
+2022-08-31 14:17:39,688 - root - INFO - start 22 epoch
+2022-08-31 14:18:48,431 - root - INFO - epoch: 22 took 68.75s
+2022-08-31 14:18:48,439 - root - INFO - Epoch mean loss: 0.6637986942954447
+2022-08-31 14:18:48,440 - root - INFO - val auc: 0.8686361708482677, new node val auc: 0.8568399098590204
+2022-08-31 14:18:48,442 - root - INFO - val ap: 0.8752851043335752, new node val ap: 0.8734023337975032
+2022-08-31 14:18:48,463 - root - INFO - start 23 epoch
+2022-08-31 14:19:58,528 - root - INFO - epoch: 23 took 70.07s
+2022-08-31 14:19:58,528 - root - INFO - Epoch mean loss: 0.6606652560247772
+2022-08-31 14:19:58,535 - root - INFO - val auc: 0.8684116985264834, new node val auc: 0.8562992549247366
+2022-08-31 14:19:58,536 - root - INFO - val ap: 0.8757483946963791, new node val ap: 0.8741581156905556
+2022-08-31 14:19:58,561 - root - INFO - start 24 epoch
+2022-08-31 14:21:07,438 - root - INFO - epoch: 24 took 68.88s
+2022-08-31 14:21:07,441 - root - INFO - Epoch mean loss: 0.6609897771100889
+2022-08-31 14:21:07,443 - root - INFO - val auc: 0.8726103345280767, new node val auc: 0.856777759921077
+2022-08-31 14:21:07,443 - root - INFO - val ap: 0.8805453779797455, new node val ap: 0.8736592972133803
+2022-08-31 14:21:07,465 - root - INFO - start 25 epoch
+2022-08-31 14:22:16,247 - root - INFO - epoch: 25 took 68.79s
+2022-08-31 14:22:16,252 - root - INFO - Epoch mean loss: 0.6613277513747928
+2022-08-31 14:22:16,252 - root - INFO - val auc: 0.8821495519713262, new node val auc: 0.8694583963179837
+2022-08-31 14:22:16,253 - root - INFO - val ap: 0.8885604049268443, new node val ap: 0.8860638450539361
+2022-08-31 14:22:16,265 - root - INFO - start 26 epoch
+2022-08-31 14:23:25,753 - root - INFO - epoch: 26 took 69.49s
+2022-08-31 14:23:25,753 - root - INFO - Epoch mean loss: 0.6495579578753176
+2022-08-31 14:23:25,757 - root - INFO - val auc: 0.878287803663879, new node val auc: 0.8667609131846099
+2022-08-31 14:23:25,757 - root - INFO - val ap: 0.8860474324308074, new node val ap: 0.8832088719437766
+2022-08-31 14:23:25,786 - root - INFO - start 27 epoch
+2022-08-31 14:24:33,573 - root - INFO - epoch: 27 took 67.80s
+2022-08-31 14:24:33,574 - root - INFO - Epoch mean loss: 0.6617195825467165
+2022-08-31 14:24:33,574 - root - INFO - val auc: 0.8773232875348467, new node val auc: 0.8645948771600421
+2022-08-31 14:24:33,575 - root - INFO - val ap: 0.8847010510737395, new node val ap: 0.8810749520791784
+2022-08-31 14:24:33,595 - root - INFO - start 28 epoch
+2022-08-31 14:25:44,523 - root - INFO - epoch: 28 took 70.93s
+2022-08-31 14:25:44,526 - root - INFO - Epoch mean loss: 0.651976216284708
+2022-08-31 14:25:44,526 - root - INFO - val auc: 0.8777204301075267, new node val auc: 0.8653339413009579
+2022-08-31 14:25:44,526 - root - INFO - val ap: 0.8841834895839014, new node val ap: 0.8814921807890052
+2022-08-31 14:25:44,542 - root - INFO - start 29 epoch
+2022-08-31 14:26:58,688 - root - INFO - epoch: 29 took 74.15s
+2022-08-31 14:26:58,689 - root - INFO - Epoch mean loss: 0.654492758642668
+2022-08-31 14:26:58,689 - root - INFO - val auc: 0.8754747610513741, new node val auc: 0.8634936718327341
+2022-08-31 14:26:58,690 - root - INFO - val ap: 0.8841253896885852, new node val ap: 0.8791038773510985
+2022-08-31 14:26:58,715 - root - INFO - start 30 epoch
+2022-08-31 14:28:15,333 - root - INFO - epoch: 30 took 76.62s
+2022-08-31 14:28:15,334 - root - INFO - Epoch mean loss: 0.6536810822870539
+2022-08-31 14:28:15,334 - root - INFO - val auc: 0.8741222720031859, new node val auc: 0.8607938934061038
+2022-08-31 14:28:15,335 - root - INFO - val ap: 0.8800147582664019, new node val ap: 0.8773682263054691
+2022-08-31 14:28:15,336 - root - INFO - No improvement over 5 epochs, stop training
+2022-08-31 14:28:15,336 - root - INFO - Loading the best model at epoch 25
+2022-08-31 14:28:15,359 - root - INFO - Loaded the best model at epoch 25 for inference
+2022-08-31 14:28:29,621 - root - INFO - Test statistics: Old nodes -- auc: 0.9090829669141766, ap: 0.9115522969783477
+2022-08-31 14:28:29,622 - root - INFO - Test statistics: New nodes -- auc: 0.8363465057319223, ap: 0.855854206443535
+2022-08-31 14:28:29,624 - root - INFO - Saving TGN model
+2022-08-31 14:28:29,678 - root - INFO - TGN model saved
