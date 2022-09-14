@@ -32,7 +32,7 @@ If you want to try another benchmark dataset, three cells need to be updated :
 
 If you want to test the method with the Synthetic dataset, you need to decomment the cells allowing its generation in Part. A.2), the training of TGN on it in Part. B.2) and to use 'Synthetic' as dataset name everywhere.
 
-## Last training instant for benchmark datasets
+## Last training instant for some benchmark datasets
 
  - uci: 2946672.0
  - email: 82975888.0
