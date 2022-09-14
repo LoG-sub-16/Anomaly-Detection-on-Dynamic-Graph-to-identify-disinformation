@@ -1,1 +1,0 @@
-# Anomaly-Detection-on-Dynamic-Graph-to-identify-disinformation
