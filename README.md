@@ -13,7 +13,7 @@ Compare to the original repositories, the following files were replaced or added
    - 'model/tgn.py';
    - 'evaluation/evaluation.py';
    - 'modules/embedding_module.py';
-   - 'TGN_TADDY.ipynb'.
+   - 'Main_notebook.ipynb'.
  - For TADDY:
    - '0_prepare_data.py';
    - '1_train.py';
